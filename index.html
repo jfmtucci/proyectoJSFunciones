@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Funciones En JS</title>
+  </head>
+  <body class="index">
+    <nav>
+      <div>
+        <button id="ejer1">Ejercicio 1</button>
+        <button id="ejer2">Ejercicio 2</button>
+        <button id="ejer3">Ejercicio 3</button>
+        <button id="ejer4">Ejercicio 4</button>
+      </div>
+    </nav>
+    <main>
+      <iframe id="miIframe" height="100%" width="100%" frameborder="0">
+      </iframe>
+    </main>
+    <script>
+      document.getElementById("ejer1").addEventListener("click", () => {
+        document.getElementById("miIframe").src = "1_funcion.html";
+      });
+      document.getElementById("ejer2").addEventListener("click", () => {
+        document.getElementById("miIframe").src = "2_arrow.html";
+      });
+      document.getElementById("ejer3").addEventListener("click", () => {
+        document.getElementById("miIframe").src = "pintar.html";
+      });
+      document.getElementById("ejer4").addEventListener("click", () => {
+        document.getElementById("miIframe").src = "ultimoEjercicio.html";
+      });
+    </script>
+  </body>
+</html>

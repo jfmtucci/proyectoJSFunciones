@@ -1,0 +1,23 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* index*/
+.index {
+  display: grid;
+
+  grid-template-rows: 15vh 1fr;
+  font-size: 16px;
+  font-family: sans-serif, Arial, Helvetica;
+}
+.index nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+main {
+  border-color: black;
+  min-height: 85vh;
+}
